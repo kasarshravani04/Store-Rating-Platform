@@ -1,0 +1,6 @@
+{
+  "name": "Store Rating Platform",
+  "description": "A full-stack store rating platform featuring role-based dashboards, secure JWT authentication, and interactive store rating features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

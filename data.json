@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "id": "usr-admin1",
+      "name": "System Administrator Account",
+      "email": "admin@platform.com",
+      "address": "123 Enterprise Suite, Admin Hub Building, Tech District",
+      "role": "ADMIN",
+      "password": "AdminPassword123!"
+    },
+    {
+      "id": "usr-owner1",
+      "name": "Alexander James Sterling",
+      "email": "alex.owner@store.com",
+      "address": "102 Retail Boulevard, Sector 4, Silicon Valley, CA 94016",
+      "role": "OWNER",
+      "password": "OwnerPassword1!"
+    },
+    {
+      "id": "usr-owner2",
+      "name": "Eleanor Sophia Vance",
+      "email": "eleanor.owner@cafe.com",
+      "address": "405 Greenway Avenue, Portland Rose Core, OR 97201",
+      "role": "OWNER",
+      "password": "CafePassword1!"
+    },
+    {
+      "id": "usr-user1",
+      "name": "Jonathan David Miller",
+      "email": "jonathan.user@gmail.com",
+      "address": "12 Oak Ridge Road, Suburbia Heights, NY 10001",
+      "role": "USER",
+      "password": "UserPassword12!"
+    },
+    {
+      "id": "usr-user2",
+      "name": "Samantha Kayla Peterson",
+      "email": "samantha.p@hotmail.com",
+      "address": "89 Pine Meadow, Apartment 4B, Cherry Hill, NJ 08003",
+      "role": "USER",
+      "password": "UserPassword23!"
+    }
+  ],
+  "stores": [
+    {
+      "id": "store-1",
+      "name": "Apex Electronics Hub",
+      "email": "contact@apexhub.com",
+      "address": "789 Broad Avenue, Retail District, CA 90021",
+      "ownerId": "usr-owner1",
+      "rating": 4.5
+    },
+    {
+      "id": "store-2",
+      "name": "The Green Garden Cafe",
+      "email": "hello@greengardencafe.com",
+      "address": "456 Garden Boulevard, Greenhouse Sector, Portland, OR 97214",
+      "ownerId": "usr-owner2",
+      "rating": 3.5
+    }
+  ],
+  "ratings": [
+    {
+      "id": "rate-1",
+      "userId": "usr-user1",
+      "userName": "Jonathan David Miller",
+      "storeId": "store-1",
+      "rating": 5,
+      "createdAt": "2026-06-05T10:00:00.000Z"
+    },
+    {
+      "id": "rate-2",
+      "userId": "usr-user2",
+      "userName": "Samantha Kayla Peterson",
+      "storeId": "store-1",
+      "rating": 4,
+      "createdAt": "2026-06-06T11:30:00.000Z"
+    },
+    {
+      "id": "rate-3",
+      "userId": "usr-user1",
+      "userName": "Jonathan David Miller",
+      "storeId": "store-2",
+      "rating": 3,
+      "createdAt": "2026-06-07T09:00:00.000Z"
+    },
+    {
+      "id": "rate-4",
+      "userId": "usr-user2",
+      "userName": "Samantha Kayla Peterson",
+      "storeId": "store-2",
+      "rating": 4,
+      "createdAt": "2026-06-08T05:45:00.000Z"
+    }
+  ]
+}
